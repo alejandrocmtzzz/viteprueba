@@ -20,7 +20,7 @@ export default defineConfig({
     port: 9527,
   },
   plugins: [
-    vue2(),
+    vue2(index.html),
     Pages(),
     Layouts(),
     legacy({
